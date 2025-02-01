@@ -1,14 +1,19 @@
 import asyncio
 import logging
+import os
 from aiogram import Bot, Dispatcher
 from aiogram.methods import DeleteWebhook
 from aiogram import types
 from aiogram.types import Message
 from aiogram.filters import Command
+from dotenv import load_dotenv
 import requests
 
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="7810092883:AAHhtQFxgRnfc41oOX0wMCREHRGNOQcZLXE")  # your token
+bot = Bot(token=BOT_TOKEN)  # your token
 dp = Dispatcher()
 
 
