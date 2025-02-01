@@ -2,23 +2,23 @@
 
 Сode for integrating artificial intelligence DeepSeek-R1 into a telegram bot using the service `proxy.tune.app`
 
-## Встановлення
+## Installation
 
-### 1. Клонування репозиторію
+### 1. Cloning a repository
 ```sh
 git clone https://github.com/alex01-oss/deepseek-teelgram-bot
 cd deepseek-teelgram-bot
 ```
 
-### 2. Встановлення залежностей
+### 2. Installing dependencies
 ```sh
 pip install -r requirements.txt
 ```
 
-## Використання
+## Using
 
-Як запустити проєкт, які є команди:
+How to launch a project:
 ```sh
-python main.py
+python bot.py
 ```
 
