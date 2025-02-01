@@ -7,7 +7,7 @@
 ### 1. Cloning a repository
 ```sh
 git clone https://github.com/alex01-oss/deepseek-teelgram-bot
-cd deepseek-teelgram-bot
+cd deepseek-telegram-bot
 ```
 
 ### 2. Installing dependencies
